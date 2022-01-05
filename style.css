@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+label{
+    width: 140px;
+    
+}
+.container{
+    width: 40%;
+    background-color: #5F9EA0;
+    padding: 34px;
+    margin:50px auto;
+    font-size: 25px;
+
+}
+.g-recaptcha{
+    width: desired_width;
+
+border-radius: 4px;
+border-right: 1px solid #d8d8d8;
+overflow: hidden;
+}
+input,textarea,select{
+            
+    border: 2px solid black;
+    font-size: 15px;
+    width: 60%;
+    margin: 0px auto;
+    padding: 3px;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+    
+}
+.btn{
+    margin:auto;
+    display:block;
+    width:100px;
+    border: 5px;
+    border-style: outset;
+    border-color: internal-light-dark(rgb(110, 110, 110), rgb(132, 132, 132));
+    border-image: initial;
+    padding: 3px 11px;
+    font-size: 16px;
+    background-color: #ADD8E6;
+    cursor: pointer;
+}
